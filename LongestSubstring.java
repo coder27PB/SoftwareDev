@@ -17,6 +17,7 @@ public class LongestSubstring {
         LinkedHashSet<Character> tracker = new LinkedHashSet<>();
         int max = 0;
         String answer = "";
+        System.out.println("This Question was asked by McAffee");
         for (int i = 0; i < str.length(); i++) {
 
             for (int j = i + 1; j < str.length(); j++) {
